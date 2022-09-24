@@ -3,7 +3,7 @@ from flask import render_template, redirect
 import random
 import smtplib
 
-
+# initialize variables
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 sender_email = "ryansfreefire@gmail.com"
 sender_pass = "ryansfreefire123"
